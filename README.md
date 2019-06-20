@@ -26,6 +26,8 @@ usethis::use_rcpp()
 usethis::use_rcpp_armadillo()
 ```
 
+Ref: https://usethis.r-lib.org/
+
 ## Method 3: Using package "devtools" (now obsolete)
 
 ```
@@ -43,6 +45,8 @@ devtools::use_rcpp()
 devtools::build()
 devtools::install()
 ```
+
+Ref: https://knausb.github.io/2017/09/a-minimal-rcpp-and-roxygen2-package/
 
 ## Workable Makevars file for mac
 
