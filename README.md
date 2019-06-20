@@ -48,7 +48,7 @@ devtools::install()
 
 Ref: https://knausb.github.io/2017/09/a-minimal-rcpp-and-roxygen2-package/
 
-## Workable Makevars file for mac
+## A workable Makevars file for mac
 
 ```
 CXX_STD = CXX11
