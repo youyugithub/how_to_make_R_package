@@ -1,5 +1,4 @@
-# how_to_make_R_package
-how_to_make_R_package
+# How to make an R package
 
 ## Method 1: Using RStudio
 
@@ -43,4 +42,11 @@ devtools::document()
 devtools::use_rcpp()
 devtools::build()
 devtools::install()
+```
+
+## Workable Makevars file for mac
+
+```
+CXX_STD = CXX11
+PKG_LIBS = $(LAPACK_LIBS) $(BLAS_LIBS) $(FLIBS)
 ```
